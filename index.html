@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="L'Inédit — maison de cuisine à l'île Saint-Louis. Quatorze couverts, un service par soir, une édition unique par saison par la cheffe Amélie Roch.">
+  <title>L'Inédit | Maison de cuisine — Île Saint-Louis</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <span class="preloader-mark">L&rsquo;INÉDIT</span>
+      <span class="preloader-count" id="preloaderCount">000</span>
+    </div>
+  </div>
+
+  <header class="site-header" id="header">
+    <div class="header-inner">
+      <a href="#hero" class="wordmark">L&rsquo;Inédit<span class="wordmark-dot">·</span></a>
+
+      <nav class="nav" id="navMenu">
+        <ul>
+          <li><a href="#table" class="nav-link is-active">La Table</a></li>
+          <li><a href="#editions" class="nav-link">Éditions</a></li>
+          <li><a href="#rituel" class="nav-link">Le Rituel</a></li>
+          <li><a href="#archives" class="nav-link">Archives</a></li>
+          <li><a href="#paroles" class="nav-link">Paroles</a></li>
+          <li><a href="#adresse" class="nav-link">L&rsquo;Adresse</a></li>
+        </ul>
+        <button class="pill open-booking">
+          <span>Demander une page</span>
+          <span class="pill-arrow">↗</span>
+        </button>
+      </nav>
+
+      <button class="burger" id="burgerBtn" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="hero">
+      <div class="hero-img" aria-hidden="true"></div>
+      <div class="hero-shade"></div>
+
+      <div class="hero-topline">
+        <span>Maison de cuisine — Île Saint-Louis</span>
+        <span class="hero-topline-right">N° Automne 2026</span>
+      </div>
+
+      <div class="hero-body">
+        <p class="hero-eyebrow">Une table, un soir, une édition.</p>
+        <h1 class="hero-title">L&rsquo;Inédit</h1>
+        <p class="hero-lede">
+          Quatorze couverts, un seul service par soir, un menu qui se lit comme un livre.
+          La cheffe Amélie Roch, ex-relieuse, compose chaque saison une édition unique, jamais réimprimée.
+        </p>
+        <div class="hero-actions">
+          <button class="btn btn-ink open-booking">Demander une page <span class="btn-arrow">→</span></button>
+          <a href="#editions" class="btn btn-ghost">Feuilleter les éditions</a>
+        </div>
+      </div>
+
+      <div class="hero-foot">
+        <span class="hero-foot-note">Tirage limité — 54 soirées par saison</span>
+        <a href="#table" class="scroll-cue" aria-label="Descendre">
+          <span class="scroll-cue-line"></span>
+          <span>Descendre dans l'atelier</span>
+        </a>
+      </div>
+    </section>
+
+    <div class="galope" aria-hidden="true">
+      <div class="galope-track">
+        <span>cuisine de reliure — édition infinie —</span>
+        <span>cuisine de reliure — édition infinie —</span>
+        <span>cuisine de reliure — édition infinie —</span>
+        <span>cuisine de reliure — édition infinie —</span>
+      </div>
+    </div>
+
+    <section class="table section" id="table">
+      <div class="container">
+        <div class="table-grid">
+          <div class="table-aside">
+            <p class="folio">Folio 01 — La relieuse</p>
+            <h2 class="display">Le cahier de la <em>cheffe</em></h2>
+          </div>
+
+          <div class="table-main">
+            <figure class="portrait">
+              <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=800&q=80&sat=-100" alt="La cheffe Amélie Roch, portrait en noir et blanc">
+              <figcaption>Amélie Roch — relieuse d'art, devenue cuisinière.</figcaption>
+            </figure>
+
+            <div class="portrait-caption">
+              <p class="dropcap">
+                Amélie Roch a passé douze ans dans les ateliers de reliure du Marais, à coudre des manuscrits qui ne devaient jamais être lus deux fois.
+                Un soir, elle a échangé l'aiguille contre la mandoline et la dorure contre le feu. La cuisine est restée une affaire de pages : on les tourne, on les date, on ne les refait pas.
+              </p>
+              <p class="muted">
+                Chaque saison, L'Inédit tire son menu à un seul exemplaire. Une fois la dernière table servie, l'édition est épuisée.
+                Il ne reste que la trace — quelques mots dans notre carnet, et la mémoire de quatorze couverts suspendus.
+              </p>
+
+              <ul class="stats" aria-label="Chiffres clés">
+                <li>
+                  <span class="stat-num" data-count="14">0</span>
+                  <span class="stat-label">couverts par soir</span>
+                </li>
+                <li>
+                  <span class="stat-num" data-count="1">0</span>
+                  <span class="stat-label">service unique</span>
+                </li>
+                <li>
+                  <span class="stat-num" data-count="9">0</span>
+                  <span class="stat-label">temps au menu</span>
+                </li>
+                <li>
+                  <span class="stat-num" data-count="12">0</span>
+                  <span class="stat-label">ans de reliure</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="editions section" id="editions">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="folio">Folio 02 — La bibliothèque</p>
+            <h2 class="display">Les <em>éditions</em> en cours</h2>
+          </div>
+
+          <div class="editions-switch" role="tablist" aria-label="Choisir une saison">
+            <button class="edition-tab is-active" data-edition="automne" role="tab" aria-selected="true">Automne</button>
+            <button class="edition-tab" data-edition="ete" role="tab" aria-selected="false">Été</button>
+            <button class="edition-tab" data-edition="printemps" role="tab" aria-selected="false">Printemps</button>
+          </div>
+        </div>
+
+        <div class="edition-sheet">
+          <div class="sheet-caption">
+            <span class="sheet-ref" id="sheetRef">N° 026 — Édition Automne</span>
+            <span class="sheet-price">9 temps &nbsp;·&nbsp; 145 €</span>
+          </div>
+
+          <ul class="menu-list" id="menuList">
+            <li class="menu-row" data-img="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80">
+              <span class="row-index">01</span>
+              <span class="row-title">La brasée</span>
+              <span class="row-text">châtaignes fumées · beurre de noisette · peau de lait</span>
+              <span class="row-more">ouvrir</span>
+            </li>
+            <li class="menu-row" data-img="https://images.unsplash.com/photo-1559742811-822873691df8?auto=format&fit=crop&w=600&q=80">
+              <span class="row-index">02</span>
+              <span class="row-title">Le marais</span>
+              <span class="row-text">huître d'Utah Beach · vinaigre de cidre bouché · pomme râpée</span>
+              <span class="row-more">ouvrir</span>
+            </li>
+            <li class="menu-row" data-img="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80">
+              <span class="row-index">03</span>
+              <span class="row-title">Le sous-bois</span>
+              <span class="row-text">cèpes en trois façons · émulsion de mousseux de Bourgogne</span>
+              <span class="row-more">ouvrir</span>
+            </li>
+            <li class="menu-row" data-img="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=600&q=80">
+              <span class="row-index">04</span>
+              <span class="row-title">L'oie voilée</span>
+              <span class="row-text">foie persillé · salsifis · coing au poivre de Kampot</span>
+              <span class="row-more">ouvrir</span>
+            </li>
+            <li class="menu-row" data-img="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80">
+              <span class="row-index">05</span>
+              <span class="row-title">Le potager d'hiver</span>
+              <span class="row-text">panais confits · chou de Bruxelles · crème de mimolette</span>
+              <span class="row-more">ouvrir</span>
+            </li>
+            <li class="menu-row" data-img="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=600&q=80">
+              <span class="row-index">06</span>
+              <span class="row-title">Le banyuls</span>
+              <span class="row-text">poire rôtie · chocolat noir 88% · caramel champignon</span>
+              <span class="row-more">ouvrir</span>
+            </li>
+          </ul>
+
+          <div class="sheet-caption sheet-caption-bottom">
+            <span>Accord : « La reliure » — 6 verres de Vignerons sans intrant · +68 €</span>
+            <span>Végétarien consultable sur demande</span>
+          </div>
+        </div>
+
+        <div class="tasting"><span class="tasting-tag">Tirage de mi- semaine</span>L&rsquo;abrégé en 6 temps, les jeudis soir — 78 €. Mise à disposition limitée à dix couverts.</div>
+      </div>
+    </section>
+
+    <section class="rituel section" id="rituel">
+      <div class="container">
+        <div class="section-head">
+          <p class="folio">Folio 03 — Le protocole</p>
+          <h2 class="display">Le <em>rituel</em> en trois temps</h2>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step-num">01</span>
+            <h3>À l'arrivée</h3>
+            <p>Un verre de cidre de glace maison et le menu calligraphié au crayon, comme une épreuve d'imprimeur avant tirage.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">02</span>
+            <h3>Le service</h3>
+            <p>Un seul service, sans choix. La brigade compose l'édition dans l'ordre exact de sa pagination, à quatorze voix.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">03</span>
+            <h3>La sortie</h3>
+            <p>Le billet réglé, un feuillet souvenir des mots du soir et, pour les plus fidèles, le privilège du second tirage.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="archives section" id="archives">
+      <div class="archives-head">
+        <p class="folio">Folio 04 — Les feuillets</p>
+        <h2 class="display">Archives <em>récentes</em></h2>
+        <div class="archives-nav">
+          <button id="stripLeft" class="strip-btn" aria-label="Précédent">←</button>
+          <button id="stripRight" class="strip-btn" aria-label="Suivant">→</button>
+        </div>
+      </div>
+
+      <div class="strip" id="strip">
+        <figure class="slide">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80" alt="">
+          <figcaption>No 90 — salle &agrave; la chandelle</figcaption>
+        </figure>
+        <figure class="slide">
+          <img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?auto=format&fit=crop&w=800&q=80" alt="">
+          <figcaption>No 91 — service de l'&eacute;t&eacute;</figcaption>
+        </figure>
+        <figure class="slide">
+          <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80" alt="">
+          <figcaption>No 92 — copeaux d'hu&icirc;tre</figcaption>
+        </figure>
+        <figure class="slide">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="">
+          <figcaption>No 93 — le potager d'hiver</figcaption>
+        </figure>
+        <figure class="slide">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="">
+          <figcaption>No 94 — l'atelier, un mardi</figcaption>
+        </figure>
+        <figure class="slide">
+          <img src="https://images.unsplash.com/photo-1560008581-09826d1de69e?auto=format&fit=crop&w=800&q=80" alt="">
+          <figcaption>No 95 — l'abrégé, jeudi soir</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="paroles section" id="paroles">
+      <div class="container container-narrow">
+        <p class="folio">Folio 05 — Paroles de couverts</p>
+
+        <div class="carousel" data-index="0">
+          <figure class="voix is-active">
+            <blockquote>&laquo; Ce n'est pas un restaurant, c'est une bibliothèque où l'on mange. L'édition d'automne se lit à hurler de plaisir. &raquo;</blockquote>
+            <figcaption>Hélène Vourc'h — critique professionnelle éphémère</figcaption>
+          </figure>
+          <figure class="voix">
+            <blockquote>&laquo; Quatorze couverts suspendus, quatre heures hors du temps : la page s'est tournée toute seule. &raquo;</blockquote>
+            <figcaption>Samy T. — lecteur de la saison passée</figcaption>
+          </figure>
+          <figure class="voix">
+            <blockquote>&laquo; Jamais lu une carte pareille. La poire au banyuls est un final que l'on n'oublie pas. &raquo;</blockquote>
+            <figcaption>Les Feuillets — revue de table, hors-série</figcaption>
+          </figure>
+          <div class="voix-progress" aria-hidden="true"><span id="voixBar"></span></div>
+        </div>
+
+        <div class="voix-dots" id="voixDots" aria-label="Navigation des paroles"></div>
+      </div>
+    </section>
+
+    <section class="adresse section" id="adresse">
+      <div class="container">
+        <div class="section-head">
+          <p class="folio">Folio 06 — L'adresse</p>
+          <h2 class="display">Venir <em>signer</em> son passage</h2>
+        </div>
+
+        <div class="adresse-grid">
+          <div class="adresse-infos">
+            <article class="fiche">
+              <h3>L'atelier</h3>
+              <p>14 quai d'Anjou<br>75004 Paris — Île Saint-Louis</p>
+              <p class="muted">Métro Sully–Morland (ligne 7)<br>Sur l'île, derrière l'église Saint-Louis, côté quai d'Anjou.</p>
+            </article>
+
+            <article class="fiche">
+              <h3>Ouvertures</h3>
+              <p>Jeudi — Samedi &nbsp;·&nbsp; 19 h 30 — 20 h 30<br>Dimanche &nbsp;·&nbsp; 12 h 30 — 13 h 30<br><span class="muted">Café &amp; carton des archives dès 17 h</span></p>
+              <p class="muted">Relâche lundi — mercredi.</p>
+            </article>
+
+            <article class="fiche">
+              <h3>Correspondance</h3>
+              <p><a href="tel:+33143542020">01 43 54 20 20</a><br><a href="mailto:pages@l-inedit.fr">pages@l-inedit.fr</a></p>
+            </article>
+          </div>
+
+          <div class="adresse-form">
+            <h3>Écrire un mot</h3>
+            <p class="muted">Privatisation du cahier, atelier du dimanche matin, simple question : la cheffe répond en personne.</p>
+            <form id="contactForm" class="form-minimal">
+              <div class="field">
+                <label for="cfName">Nom</label>
+                <input id="cfName" type="text" placeholder="Votre nom" required>
+              </div>
+              <div class="field">
+                <label for="cfMail">Email</label>
+                <input id="cfMail" type="email" placeholder="vous@exemple.fr" required>
+              </div>
+              <div class="field">
+                <label for="cfMsg">Feuillet</label>
+                <textarea id="cfMsg" rows="4" placeholder="Votre mot..."></textarea>
+              </div>
+              <button class="btn btn-ink btn-block" type="submit">Acheminer <span class="btn-arrow">→</span></button>
+            </form>
+          </div>
+        </div>
+
+        <div class="plan">
+          <iframe
+            src="https://www.openstreetmap.org/export/embed.html?bbox=2.3480%2C48.8480%2C2.3680%2C48.8580&layer=mapnik&marker=48.8520%2C2.3580"
+            width="100%" height="280" loading="lazy" title="Plan — 14 quai d'Anjou, Île Saint-Louis"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-news">
+      <div>
+        <p class="folio">Le second tirage</p>
+        <h2 class="display">Un feuillet <em>par saison</em></h2>
+      </div>
+      <form id="newsForm" class="news-minimal">
+        <input id="newsMail" type="email" placeholder="votre@email.fr" required>
+        <button class="pill" type="submit">S'abonner <span class="pill-arrow">↗</span></button>
+      </form>
+    </div>
+
+    <div class="footer-brand">
+      <span class="footer-glyph">L</span>
+      <p>L&rsquo;Inédit — maison de cuisine. Éditions uniques depuis 2019.<br>Projet fictif de démonstration.</p>
+      <p class="footer-cr">&copy; 2026 · 14 quai d'Anjou, Paris · <a href="#hero">retour au sommaire ↑</a></p>
+    </div>
+  </footer>
+
+  <div class="preview" id="preview" aria-hidden="true">
+    <img id="previewImg" src="" alt="">
+  </div>
+
+  <dialog id="bookingModal" class="modal">
+    <div class="modal-sheet">
+      <header class="modal-head">
+        <span class="modal-mark">Demande de page</span>
+        <button id="modalClose" class="modal-x" aria-label="Fermer">&times;</button>
+      </header>
+
+      <div class="steps-track" id="stepsTrack" aria-hidden="true">
+        <span class="step-pip is-on" data-step="1"></span>
+        <span class="step-pip" data-step="2"></span>
+        <span class="step-pip" data-step="3"></span>
+      </div>
+
+      <form id="bookingForm">
+
+        <section class="wstep is-on" data-step="1">
+          <h3>Vol. I — Le rendez-vous</h3>
+          <div class="field">
+            <label for="bkDate">Jour de la lecture</label>
+            <input id="bkDate" type="date" required>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="bkService">Ouverture</label>
+              <select id="bkService">
+                <option value="soir" selected>Jeudi — Samedi · 19 h 30</option>
+                <option value="midi">Dimanche · 12 h 30</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="bkGuests">Couverts</label>
+              <select id="bkGuests">
+                <option>1</option><option selected>2</option><option>3</option>
+                <option>4</option><option>5</option><option>6</option>
+              </select>
+            </div>
+          </div>
+          <button type="button" class="btn btn-ink btn-block wnext">Tourner la page <span class="btn-arrow">→</span></button>
+        </section>
+
+        <section class="wstep" data-step="2">
+          <h3>Vol. II — Votre marque</h3>
+          <div class="field">
+            <label for="bkName">Nom complet</label>
+            <input id="bkName" type="text" placeholder="Victor Hugo" required>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="bkPhone">Téléphone</label>
+              <input id="bkPhone" type="tel" placeholder="06 .. .. .. .." required>
+            </div>
+            <div class="field">
+              <label for="bkMail">Email</label>
+              <input id="bkMail" type="email" placeholder="vous@exemple.fr" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="bkNotes">Annotations (allergies, anniversaire, dédicace)</label>
+            <textarea id="bkNotes" rows="3" placeholder="La cheffe aime savoir à qui elle écrit..."></textarea>
+          </div>
+          <div class="field-row">
+            <button type="button" class="btn btn-ghost-dark wback">← Revenir</button>
+            <button type="button" class="btn btn-ink wnext">Tourner la page <span class="btn-arrow">→</span></button>
+          </div>
+        </section>
+
+        <section class="wstep" data-step="3">
+          <h3>Vol. III — L'épreuve</h3>
+          <dl class="receipt">
+            <div><dt>Date</dt><dd id="rcDate">—</dd></div>
+            <div><dt>Ouverture</dt><dd id="rcService">—</dd></div>
+            <div><dt>Couverts</dt><dd id="rcGuests">—</dd></div>
+            <div><dt>Titulaire</dt><dd id="rcName">—</dd></div>
+            <div><dt>Contact</dt><dd id="rcMail">—</dd></div>
+          </dl>
+          <p class="muted small">La demande est transmise à la cheffe ; une réponse manuscrite vous parvient sous 24 h. La table est remise, pas accordée.</p>
+          <div class="field-row">
+            <button type="button" class="btn btn-ghost-dark wback">← Revenir</button>
+            <button type="submit" class="btn btn-ink">Signer la demande <span class="btn-arrow">→</span></button>
+          </div>
+        </section>
+
+      </form>
+
+      <div class="wsent hidden" id="wsent">
+        <div class="wsent-glyph">✓</div>
+        <span class="wsent-ref" id="wsentRef">IN-ED-0000</span>
+        <h3>Page transmise</h3>
+        <p class="muted">Votre mot a rejoint notre carnet. La cheffe répond en personne, en général avant le coucher du soleil.</p>
+        <button type="button" class="btn btn-ink btn-block" id="wsentClose">Refermer le livre</button>
+      </div>
+    </div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
